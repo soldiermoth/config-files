@@ -1,0 +1,32 @@
+alias cd=project
+alias ls=projects
+alias c=compile
+alias cc=~compile
+alias t=test
+alias tt=~test
+alias r=run
+alias rr=~run
+alias re=reload
+alias up=update
+alias gen=gen-idea
+alias pl=publish-local
+alias p=publish
+
+alias cr=container:start
+alias cs=container:stop
+
+alias run-webapp = ;project mvp;container:start;project root
+alias start-webapp = ;project mvp;container:start;project root
+alias stop-webapp = ;project mvp;container:stop;project root
+alias restart-webapp = ;project mvp;container:stop;container:start;project root
+
+alias ruw = ;project mvp;container:start;project root
+alias rew = ;project mvp;container:stop;container:start;project root
+
+alias cp = show dependency-classpath
+alias ssd = show source-directories
+alias a = about
+alias al = alias
+
+# Recursive compile-and-run
+alias rcr = ~ ;copy-resources;aux-compile

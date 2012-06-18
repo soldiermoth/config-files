@@ -1,0 +1,12 @@
+[alias]
+	stat = status
+[core]
+	excludesfile = /home/rpeck/.gitignore
+	editor = vim
+[user]
+	name = Robert Peck
+	email = rpeck@llnw.com
+[color]
+	ui = auto
+[merge]
+	tool = meld
